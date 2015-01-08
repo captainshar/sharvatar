@@ -9,6 +9,10 @@ Add, save, edit, and delete any number of characters
 
 Allow the user to do the above operations to characters
 
+Version 1 mockup: 
+
+![Mockup 001](https://raw.githubusercontent.com/captainshar/sharvatar/master/sharvatar_mockup_001.png)
+
 character
 =========
 
