@@ -11,15 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141205024503) do
+ActiveRecord::Schema.define(version: 20150714233626) do
 
-  create_table "characters", force: true do |t|
-    t.integer  "character_id"
-    t.integer  "player_id"
-    t.string   "character_name"
-    t.string   "larp_class"
-    t.string   "race"
-    t.integer  "skill_pts"
+  create_table "players", force: true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.text     "bio"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
